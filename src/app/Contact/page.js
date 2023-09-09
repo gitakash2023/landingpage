@@ -49,7 +49,8 @@ const Contact = () => {
     <h5 style={{textAlign:"center",color:"blue",marginTop:"25px"}}>Contact us</h5>
     <p style={{textAlign:"center",color:"gray",marginTop:"15px"}}>We can help .Our team of experts is on hand to answer your questions</p>
    </div>
-    <div style={{display:"flex",justifyContent:"space-evenly",marginTop:"25px"}}>
+    <div style={{display:"flex",justifyContent:"center"}}>
+    <div style={{display:"flex",flexWrap:"wrap",gap:"20px",alignItem:"center"}}>
       <div>
      {/* <h3 style={{color:"gray"}}>Contact Info</h3> */}
      <Image
@@ -141,6 +142,7 @@ const Contact = () => {
            }}>Submit</button>
         </div>
       </form>
+    </div>
     </div>
     </div>
     </>

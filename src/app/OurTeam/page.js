@@ -1,8 +1,10 @@
 import React from "react";
 import Team from "../Component/Team";
+import Projects from "../Projects/page"
+import Contact from "../Contact/page"
 
 
-const About = () => {
+const OurTeam = () => {
   return (
     <>
       <div>
@@ -11,8 +13,10 @@ const About = () => {
       <div
         style={{
           display: "flex",
-          justifyContent: "space-evenly",
-          marginTop: "20px",
+          flexWrap:"wrap",
+          gap:"20px",
+          justifyContent: "space-between",
+         
         }}
       >
         <Team
@@ -36,9 +40,10 @@ const About = () => {
           designation={"Actor"}
         />
       </div>
-      {/* <Projects /> */}
+      <Projects/>
+      {/* <Contact/> */}
     </>
   );
 };
 
-export default About;
+export default OurTeam;

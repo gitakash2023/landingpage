@@ -1,5 +1,6 @@
 import React from "react";
 import Productcard from "../Component/Productcard";
+import Contact from "../Contact/page"
 
 const Projects = () => {
   return (
@@ -19,8 +20,13 @@ const Projects = () => {
       <div
         style={{
           display: "flex",
-          justifyContent: "space-evenly",
-          marginTop: "20px",
+          flexWrap:"wrap",
+          gap:"15px",
+          justifyContent: "space-between",
+          marginTop:"20px"
+         
+          
+         
         }}
       >
         <div>
@@ -53,10 +59,14 @@ const Projects = () => {
         </div>
       </div>
       <div
-        style={{
+      style={{
           display: "flex",
-          justifyContent: "space-evenly",
-          marginTop: "20px",
+          flexWrap:"wrap",
+          gap:"15px",
+          justifyContent: "space-between",
+          marginTop:"20px"
+
+         
         }}
       >
         <div>
@@ -88,6 +98,7 @@ const Projects = () => {
           />
         </div>
       </div>
+    <Contact/>
     </>
   );
 };

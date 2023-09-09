@@ -16,7 +16,7 @@ const Header = () => {
         </Link>
       </div>
       <div>
-        <Link href="/About" className={styles.navlink}>
+        <Link href="/OurTeam" className={styles.navlink}>
           Our Team
         </Link>
       </div>

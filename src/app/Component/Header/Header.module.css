@@ -3,8 +3,8 @@
     padding:0;
     display:flex;
     flex-wrap: wrap;
-    justify-content:space-evenly;
-    margin-top:10px;
+    justify-content:space-between;
+   
 
 
 }
@@ -22,7 +22,7 @@
     
 }
 .navlink:hover{
-    color:black;
+    color:blue;
     
 
 }
